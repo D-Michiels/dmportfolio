@@ -8,14 +8,29 @@
 </head>
 <body>
 
-    <nav class="nav">
-      <ul>
-        <li><a href="#"><i class="fa-Intro"></i> &nbsp; Intro</a></li>
-        <li><a href="#"><i class="fa-Projects"></i> &nbsp; Projects</a></li>
-        <li><a href="#"><i class="fa-Skills"></i> &nbsp; Skills</a></li>
-        <li><a href="#"><i class="fa-Questions"></i> &nbsp; Contact</a></li>
-      </ul>
-    </nav>
+  <nav class="sidebar" id="sidebar">
+    <div class="toggle-btn" id="toggleBtn">☰</div>
+    <ul>
+      <li><a href="#"><span class="icon">#</span><span class="text">Introduction</span></a></li>
+      <li><a href="#"><span class="icon">#</span><span class="text">Projects</span></a></li>
+      <li><a href="#"><span class="icon">#</span><span class="text">Services</span></a></li>
+      <li><a href="#"><span class="icon">#</span><span class="text">Contact</span></a></li>
+    </ul>
+  </nav>
+
+  <script>
+    const sidebar = document.getElementById("sidebar");
+    const toggleBtn = document.getElementById("toggleBtn");
+
+    toggleBtn.addEventListener("click", () => {
+      if (window.innerWidth <= 900) {
+        sidebar.classList.toggle("active"); 
+      } else {
+        sidebar.classList.toggle("collapsed");
+      }
+    });
+  </script>
+
 
   <main class="wrap" role="main">
     <section class="hero" aria-labelledby="hero-title">
