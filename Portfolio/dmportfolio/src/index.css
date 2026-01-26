@@ -1,7 +1,7 @@
     :root{
       --bg-url: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2FxyUtNtr.jpg&f=1&nofb=1&ipt=7fffea47221b3bcf131f369cefd69658c9a8b533c10435a0914fc70517ea695e');
       --accent: rgba(255,255,255,0.08);
-      --glass-bg: rgba(255,255,255,0.12);
+      --glass-bg: rgba(13, 0, 0, 0.664);
       --glass-border: rgba(255,255,255,0.25);
       --text: rgba(255,255,255,0.95);
       --muted: rgba(255,255,255,0.8);
@@ -40,7 +40,7 @@
     .hero{
       padding:2.25rem;
       border-radius:18px;
-      background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.662), rgba(0, 0, 0, 0.662));
       box-shadow: 0 8px 30px rgba(2,6,23,0.6);
       backdrop-filter: blur(8px) saturate(120%);
       -webkit-backdrop-filter: blur(8px) saturate(120%);
@@ -61,7 +61,7 @@
     .card{
       padding:1rem;
       border-radius:12px;
-      background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.662), rgba(0, 0, 0, 0.662));
       border:1px solid var(--glass-border);
       backdrop-filter: blur(6px);
       -webkit-backdrop-filter: blur(6px);
@@ -76,7 +76,7 @@
     .panel{
       padding:1.5rem;
       border-radius:14px;
-      background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.662), rgba(0, 0, 0, 0.662));
       border:1px solid rgba(255,255,255,0.06);
       backdrop-filter: blur(8px) saturate(110%);
       -webkit-backdrop-filter: blur(8px) saturate(110%);
