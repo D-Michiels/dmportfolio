@@ -8,15 +8,6 @@
 </head>
 <body>
 
-  <nav class="sidebar" id="sidebar">
-    <div class="toggle-btn" id="toggleBtn">☰</div>
-    <ul>
-      <li><a href="#"><span class="icon">🏠</span><span class="text">  Intro</span></a></li>
-      <li><a href="#"><span class="icon">💡</span><span class="text">Projects</span></a></li>
-      <li><a href="#"><span class="icon">🛠️</span><span class="text">Skills</span></a></li>
-      <li><a href="#"><span class="icon">💬</span><span class="text">Contact</span></a></li>
-    </ul>
-  </nav>
 
   <script>
     const sidebar = document.getElementById("sidebar");
@@ -34,35 +25,60 @@
 
   <main class="wrap" role="main">
     <section class="hero" aria-labelledby="hero-title">
-      <h1 id="hero-title">Test</h1>
-      <p>Test 2 </p>
-      <div class="cards" aria-live="polite">
-        <article class="card">
-          <h3>Test3</h3>
-          <small>Test3a </small>
-        </article>
-        <article class="card">
-          <h3>Test4</h3>
-          <small>Test4a</small>
-        </article>
-        <article class="card">
-          <h3>Test5</h3>
-          <small>Test5a</small>
-        </article>
-        <article class="card">
-          <h3>Test6</h3>
-          <small>Test6a</small>
-        </article>
-      </div>
-
-      <div class="footer">Footer test</div>
+      <h1 id="hero-title">Dalton Michiels</h1>
+      <p>BS in Computer Science Cybersecurity Focus · Security+ · HDI SCA · Secret Clearance
+      </p>
+      <a
+        href="https://www.linkedin.com/in/dalton-michiels/"
+        class="project-card"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        LinkedIn
+    </a>
     </section>
 
     <aside class="panel" aria-labelledby="panel-title">
-      <h2 id="panel-title">Test7</h2>
-      <p>Test8</p>
-      <a class="btn" href="#">Test Button</a>
+      <h2 id="panel-title">About Me</h2>
+      <p>Hello, thank you for visiting my portfolio. 
+        I am Dalton Michiels a computer science graduate from Louisiana Tech Universtity
+        with a concentration in cybersecurity. I am fascinated with all things computer science, 
+        especially when it comes to data analysis and cybersecurity. I have completed multiple internships
+        and have done some of my own projects including this one. Please, explore the rest of this
+        website to learn what I've done.
+      </p>
     </aside>
+
+    <aside class="panel" aria-labelledby="panel-title">
+      <h1 id="panel-title">GitHub Projects</h1>
+          <a class="project-card" onclick="location.href='https://github.com/cstrick13/WIP';" href="#">Work In Progress (WIP)
+            <p>A fitness tracking social media app for my software design class. You are able to post your progress and give suggestions to others.</p>
+          </a>
+          <p></p>
+          <a class="project-card" onclick="location.href='https://github.com/D-Michiels/Shell-Project';" href="#">C-Shell
+            <p>A shell made using C. It can run basic shell commands such as: cd, ls, and even piping.</p>
+          </a>
+          <a class="project-card" onclick="location.href='https://github.com/D-Michiels/dmportfolio';" href="#">Portfolio
+            <p>My portfolio website I made using React. The website is pretty simple when I mainly focused on CSS and HTTP. I really wanted to practice my 
+              website development skills.
+            </p>
+          </a>
+    </aside>
+
+    <aside class="panel" aria-labelledby="panel-title">
+      <h1 id="panel-title">Personal Projects and Practice</h1>
+          <a class="project-card" >Home Server/Lab
+            <p>This personal project of mine is a Proxmox server. It is currently hosting 2 VMs, a VPN, and a couple of Minecraft servers.
+              I currently use it to practice incident management and pentesting, hoping to get into malware research in the future.
+            </p>
+          </a>
+          <a class="project-card" >TryHackMe
+            <p>I use TryHackMe to extend my learning of cybersecurity and to practice my current skills.
+              I recently just completed their Advent of Cyber 2025.
+            </p>
+          </a>
+    </aside>
+    
   </main>
 </body>
 </html>
